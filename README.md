@@ -6,4 +6,4 @@ This is a collection of scripts and other things for use in CCDC, but they'll al
 
 [One-liners](ONELINERS.md)
 
-[Linux Scripts](Linux Scripts/LINUX.md)
+[Linux Scripts](<Linux Scripts/LINUX.md>)
