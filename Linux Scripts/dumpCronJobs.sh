@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# SHOULD BE RUN AS ROOT!
+# Dumps cronJobs to /cronJobs from the following folders:
+# /var/spool/cron/crontabs
+# /etc/crontab
+# /etc/crontab.hourly
+# /etc/crontab.daily
+# /etc/crontab.weekly
+# /etc/crontab.monthly
+
 if [ "$EUID" -ne 0 ]
         then echo "Run as root"
         exit
