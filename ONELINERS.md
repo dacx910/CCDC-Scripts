@@ -2,7 +2,7 @@
 
 Here's a list of one-liners that I've found to discover certain things:
 
-Jump to: [Linux](##Linux)  /  [Windows](##Windows)
+Jump to: [Linux](#linux)  /  [Windows](#windows)
 
 ## Linux
 
