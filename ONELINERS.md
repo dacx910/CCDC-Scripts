@@ -44,6 +44,18 @@ cat /etc/passwd | grep -ve nologin -e false | awk -F: '{print $1,$6,$7}'
 
  Lists users, excluding users with nologin or false flags. Includes the username, home directory, and startup shell.
 
+### Check File Integrity
+
+```
+sudo debsums -x
+```
+
+> Only works for Debian and Debian-derived distros, requires installation via apt
+
+Checks the integrity of all files by comparing its checksums against what they should be.
+
+I got a few results regarding changelogs and copyright files, but no other critical results. Any binaries or scripts displayed on here should be re-installed from source.
+
 ## Windows
 
 {to be added}
